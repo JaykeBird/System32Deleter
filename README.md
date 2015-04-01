@@ -1,2 +1,2 @@
-# System32Deleter
-Want your computer to run faster and be free of viruses? Use the System32 Deleter to get back to enjoying computing!
+# Do not use this branch
+This branch was accidentally created due to my inexperience working with the Git tools with Visual Studio. This will not contain the most recent code.
