@@ -59,8 +59,8 @@ namespace System32Deleter
             long avg = CalculateAverage();
             Console.WriteLine("Files deleted: " + lengths.Count.ToString());
             Console.WriteLine("Average file size: " + avg.ToString());
-            Console.WriteLine("Biggest file: " + lname + " (" + largest.ToString() + " bytes, " + (largest / 4096 / 1000).ToString() + " seconds)");
-            Console.WriteLine("Smallest file: " + sname + " (" + smallest.ToString() + " bytes, " + (smallest / 4096 / 1000).ToString() + " seconds)");
+            Console.WriteLine("Biggest file: " + lname + " (" + largest.ToString() + " bytes, " + (((double) largest) / 4096 / 1000).ToString() + " seconds)");
+            Console.WriteLine("Smallest file: " + sname + " (" + smallest.ToString() + " bytes, " + (((double) smallest) / 4096 / 1000).ToString() + " seconds)");
         }
 
         /// <summary>
